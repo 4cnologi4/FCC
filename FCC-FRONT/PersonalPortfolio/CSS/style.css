@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Pacifico|Lobster|Roboto|Gleego');
+
+header h1{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+div > h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: red;
+  padding: 5px;
+  margin: 30px 0 0 0;
+}
+
+div > h3{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin: 30px 0 0 0;
+}.contac > h3{
+  color: #fff;
+}
+
+.nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    width: 20%;
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+	background-color: #202020;
+	border-radius: 0;
+	border: 1px solid #202020;
+}
+.menu-fixed:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.about{
+  width: 100%;
+  height: 500px;
+  clear: both;
+  background-color: #000;
+}
+
+.porta{
+  width: 100%;
+  height: 500px;
+}
+
+.contac{
+  background-color: black;
+  width: 100%;
+  height: 500px;
+}
+
+.likes{
+  width: 100%;
+  height: 500px;
+}
+
+.circle{
+  border-radius: 360px;
+  width: 300px;
+  height: 300px;
+  margin:15px 0 15px 40px;
+}
+
+.principal{
+  width: 100%;
+  background-color: rgb(235, 235, 240);
+}
+
+.text{
+  margin: 70px 15px;
+  width: 65%;
+  float: left;
+  border:2px solid rgb(195, 195, 195);
+  border-radius: 15px;
+  text-align: justify;
+  color: #fff;
+}
+
+.text > p{
+  margin: 10px 20px;
+}
+
+.img{
+  width: 30%;
+  float: right;
+  margin: 80px 15px;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 15px;
+}
+
+.porto{
+  width: 100%;
+  clear: both;
+}
+
+.conten{
+  display: inline-block;
+  width: 22%;
+  margin: 30px 15px 0 15px;
+}
+
+.icon, .ico{
+  text-align: center;
+  margin: 20px;
+}
+
+.fa-free-code-camp,.fa-github,.fa-codepen{
+  color: #000;
+}
+.fa-free-code-camp:hover{
+  color: rgb(21, 149, 18);
+  transition: all 3000ms ease;
+}
+    .fa-github:hover,.fa-codepen:hover{
+      color: #545454;
+      transition: all 3000ms ease;
+    }
+
+.fa-facebook:hover,.fa-twitter:hover,.fa-envelope:hover,.fa-linkedin-square:hover{
+  color: rgb(255, 255, 255);
+  transition: all 3000ms ease;
+}
+
+.mastfoot{
+-webkit-box-shadow: inset 2px -200px 241px 0px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px -200px 241px 0px rgba(0,0,0,1);
+box-shadow: inset 2px -200px 241px 0px rgba(0,0,0,1);
+}
+
+/*parrafo del footer*/
+.pf{
+  color: #055;
+  display: inline-block;
+}
+
+.pf:hover{
+  color: #909090;
+  cursor: pointer;
+}
+
+.inner{
+  padding: 30px;
+  text-align: center;
+}
+
+.pick{
+  width: 90%;
+  height: 90%;
+  margin: 15px;
+  opacity: 0.4;
+}.pick:hover{
+  opacity: 1;
+  transition: all 3000ms ease;
+  cursor: pointer;
+}
+
+.texto{
+  width: 100%;
+  margin: 15px;
+  text-align: center;
+}
+   .texto a{
+    font-family: 'Gleego',sans-serif;
+    color: blue;
+  }
+
+.cont{
+  width: 100%;
+  height: 65%;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#code{
+  width: 200px;
+  height: 100px;
+}
