@@ -23,19 +23,18 @@ app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
 
-app.get('/api/timestamp/:date_string', (req, res) => {
-  var day;
-  var date = req.params.date_string;
-  
-  var nan = isNaN(date);
-  (nan) ? day = new Date(date) : day = new Date(date * 1000);
-    
-  if (day == "Invalid Date"){
-    return res.send({"error" : "Invalid Date" });
-  }else{
-    return res.send({"unix": day.getTime(), "utc": day.toUTCString()});
-  }
+app.get('/api/whoami', (req,res) => {
+  res.send(JSON.stringify(req.headers));
 });
+
+/*
+app.get('/api/whoami', (req, res) => {
+  res.json({
+    ipaddress: req.headers['x-forwarded-for'].split(',')[0],
+    language: req.headers['accept-language'].split(',')[0],
+    software: req.headers['user-agent'].split(/[\(\)]/)[1]
+  });
+});*/
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
