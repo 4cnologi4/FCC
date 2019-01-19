@@ -1,0 +1,63 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#simon {
+  width: 420px;
+}
+
+#simon div {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 5px;
+  opacity: 0.5;
+}
+
+#simon div:hover {
+  border: 5px solid #000;
+  cursor: pointer;
+}
+
+.showColor {
+  opacity: 1!important;
+}
+
+#verde {
+  background-color: green;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#amarillo {
+  background-color: yellow;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#verde:active {
+  opacity: 1!important;
+}
+
+#rojo:active {
+  opacity: 1!important;
+}
+
+#amarillo:active {
+  opacity: 1!important;
+}
+
+#azul:active {
+  opacity: 1!important;
+}
+
+#mensaje {
+  margin-top: 20px;
+}
